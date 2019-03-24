@@ -1,3 +1,7 @@
+/hello-world/.gitignore
 *.o
 *.ko
-*.server
+*.symvers
+*.order
+*.cmd
+
