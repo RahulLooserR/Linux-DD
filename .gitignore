@@ -1,7 +1,8 @@
 /hello-world/.gitignore
+/snull/.gitignore
 *.o
 *.ko
 *.symvers
 *.order
-*.cmd
+*.mod.ko
 *.mod.c
