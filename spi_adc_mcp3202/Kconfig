@@ -1,0 +1,6 @@
+config SPI_ADC_MCP3202
+tristate "spi_adc_mcp3202"
+depends on ARM64
+default m
+help
+spi_adc_mcp3202

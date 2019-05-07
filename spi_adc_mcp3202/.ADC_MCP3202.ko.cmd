@@ -1,0 +1,1 @@
+cmd_drivers/spi_adc_mcp3202/ADC_MCP3202.ko := ../gcc-arm-8.2-2019/bin/aarch64-linux-gnu-ld -r  -EL  -maarch64elf -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o drivers/spi_adc_mcp3202/ADC_MCP3202.ko drivers/spi_adc_mcp3202/ADC_MCP3202.o drivers/spi_adc_mcp3202/ADC_MCP3202.mod.o ;  true
